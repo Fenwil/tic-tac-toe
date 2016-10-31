@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main>
+        <table class="vertical-align">
+            <tr>
+                <td data-index="0"></td>
+                <td data-index="1"></td>
+                <td data-index="2"></td>
+            </tr>
+            <tr>
+                <td data-index="3"></td>
+                <td data-index="4"></td>
+                <td data-index="5"></td>
+            </tr>
+            <tr>
+                <td data-index="6"></td>
+                <td data-index="7"></td>
+                <td data-index="8"></td>
+            </tr>
+        </table>
+    </main>
+    <div class="winner" style="display:none;">
+        <p><i class="ion-happy"></i></p>
+        <p>You Win</p>
+    </div>
+    <div class="loser" style="display:none;">
+        <p><i class="ion-sad"></i></p>
+        <p>You Lose</p>
+    </div>
+    <div class="tie" style="display:none;">
+        <p><i class="ion-heart-broken"></i></p>
+        <p>It's a tie</p>
+    </div>
+    <div class="pick" style="display:none;">
+        <p>Choose your might</p>
+        <p>
+            <button class="ion-ios-close-outline" id="choosed-x"></button>
+            <button class="ion-ios-circle-outline" id="choosed-o"></button>
+        </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
