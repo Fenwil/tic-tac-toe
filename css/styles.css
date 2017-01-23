@@ -123,14 +123,8 @@ button#choosed-o:hover {
     color: #3490DE;
 }
 
-
-/* line */
-
 .line {
     transform-origin: 0% 0%;
-    /*margin-left: 12% !important;
-    margin-top: 10.5% !important;*/
-    /*transform: rotate(45deg) !important;*/
     position: absolute;
     width: 60%;
     left: 0;
